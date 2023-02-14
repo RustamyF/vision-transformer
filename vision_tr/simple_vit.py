@@ -3,7 +3,7 @@ from torch import nn
 
 from einops import rearrange, repeat
 from einops.layers.torch import Rearrange
-from transformer import Transformer, pair
+from .transformer import Transformer
 
 
 def pair(t):
